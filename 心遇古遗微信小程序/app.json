@@ -1,0 +1,40 @@
+{
+  "pages": [ 
+    "pages/welcome/welcome",
+    "pages/video/video",
+    "pages/tujian-family/tujian-family",
+    "pages/tujian-family/species/species",
+    "pages/tujian-family/detail/detail",
+    "pages/map/map",
+    "pages/instruction/instruction",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#8bc34a"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "/img/tujian_icon_normal.png",
+        "selectedIconPath": "/img/tujian_icon_pressed.png",
+        "pagePath": "pages/tujian-family/tujian-family",
+        "text": "图鉴"
+      },
+      {
+        "iconPath": "/img/faxian_icon_normal.png",
+        "selectedIconPath": "/img/faxian_icon_pressed.png",
+        "pagePath": "pages/map/map",
+        "text": "发现"
+      },
+      {
+        "iconPath": "/img/user.png",
+        "selectedIconPath": "/img/slectedUser.png",
+        "pagePath": "pages/user/user",
+        "text": "发现"
+      }
+
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

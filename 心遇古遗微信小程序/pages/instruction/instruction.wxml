@@ -1,0 +1,6 @@
+<view class="ins_container">
+  <swiper indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item><image src="../../img/faxian_icon_normal.png"></image></swiper-item>
+    <swiper-item><image src="../../img/half-star.png"></image></swiper-item>
+    </swiper>
+</view>

@@ -1,0 +1,9 @@
+<view class="view_contain">
+  <!-- 第一部分 -->
+  <view class="view_1">
+    <view class="view_image_text">
+      <image class="image_radius" src="{{head}}"/>
+      <text class="userinfo-nickname">{{nickName}}</text>
+    </view>
+  </view> 
+</view>

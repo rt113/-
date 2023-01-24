@@ -1,0 +1,10 @@
+<view class="container">
+  <image class="user-avatar" src='../../img/family/welcome.jpeg'></image>
+  <text class="user-name">欢迎您来参观</text>
+  <view class="instruction-manual" bindtap="onInstruction">
+    <text class="instruction_text">使用手册</text>
+  </view>
+  <view class="moto-container" bindtap="onTap">
+    <text class="moto">立即参观</text>
+  </view>
+</view>

@@ -1,0 +1,41 @@
+<view class="map_container">
+  <view class="search_map">
+  <image class="icon" src="{{searchIcon}}" catchtap="searchbegin" data-postname="{{inputValue}}"></image>
+  <input class="search_input"  confirm-type="search" value="{{inputValue}}" type="text" bindinput="getInputValue"  placeholder="请输入搜索内容"/>
+</view>
+  <map class='map' longitude='{{longitude}}' latitude='{{latitude}}' scale='{{scale}}' markers='{{markers}}' bindcontroltap="bindcontroltap" polyline='{{polyline}}'  bindmarkertap='markertap' bindcontroltap='bindcontroltap'
+    show-location>
+ <!-- 弹窗 -->
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}" >
+  <view class="zan-dialog__mask" bindtap="toggleDialog" />
+    <!-- 内容 -->
+    <view class="zan-dialog__container">
+
+        <view class="content">
+            <image class="zan-img" src='{{map_image}}'></image>
+            <view class="tips">
+                <view class="lingyuanName">{{lingyuanName}}</view>
+                
+                <view class="adder">{{Localplace}}</view>
+                <view class="price">
+                    <view class="jiage">进入图鉴</view>
+                  
+                </view>
+            </view>
+        </view>
+        
+    </view>
+</view>   
+    
+    
+    
+    
+    
+    </map>
+  <!-- <view class="map_caozuo">
+    <view class="map_jilu">
+     <image class="image_jilu" src="../../img/map/record.png"></image>
+     <text class="text_jilu">记录此刻</text>
+     </view>
+  </view> -->
+</view>

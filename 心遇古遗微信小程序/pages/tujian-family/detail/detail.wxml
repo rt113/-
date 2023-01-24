@@ -1,0 +1,24 @@
+<view>
+  <view class="title-container">
+    <text class="speName">{{speName}}</text>
+    <text class="fgName">{{familyName}}</text>
+    <image src="{{speImg}}" mode="centerr"></image>
+    <view class="watch">
+            <view class="guankan" bindtap="guankan" >观看视频</view>
+        </view>
+    <!-- <video id="myVideo" src="{{speVideo}}"  binderror="videoErrorCallback" 
+      show-center-play-btn='{{false}}' 
+      show-play-btn="{{true}}" 
+      controls="true"
+      picture-in-picture-mode="{{['push', 'pop']}}"
+      bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+      bindleavepictureinpicture='bindVideoLeavePictureInPicture'
+    ></video> -->
+  </view>
+  <view class="content">
+    <text>{{speCon}}</text>
+    <view class="hr"></view>
+    <text>项目类别： {{grade}} </text>
+    <text>项目批次： {{batch}} </text>
+  </view>
+</view>

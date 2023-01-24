@@ -1,0 +1,9 @@
+<!--这部分是模板，也就是图片底下加一个名字-->
+
+<template name="familyItem">
+  <view class="family">
+      <image src="{{familyImg}}"></image>
+      <text>{{familyName}}</text>
+    </view>
+</template>
+
